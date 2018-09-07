@@ -11,6 +11,7 @@ Set up the directory with the py files that you want to be shared. Create a blan
 From a different location, create a new py file.
 
 At the top of the file type:
+      
       import sys
       sys.path.append('/path/to/the/folder/above/your/package/directory/')
       from package.directory import module
