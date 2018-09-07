@@ -1,6 +1,6 @@
 # Math 4610 Fundamentals of Computational Mathematics
 
-**Routine Name:**           dmaceps
+**Routine Name:**           rootFinder
 
 **Author:** Kai Udall
 
