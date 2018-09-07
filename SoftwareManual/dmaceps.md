@@ -1,4 +1,4 @@
-# Math 4610 Fundamentals of Computational Mathematics Software Manual 
+# Math 4610 Fundamentals of Computational Mathematics
 
 **Routine Name:**           dmaceps
 
