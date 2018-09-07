@@ -11,6 +11,8 @@ This folder contains the responses to the various prompts from homework 1, with 
 
 [OPENMP](https://github.com/kaiudall/MATH4610/blob/master/Homework1/OPENMP.md)
 
+[Shared Library Python](https://github.com/kaiudall/MATH4610/blob/master/Homework1/SharedLibraryPython.md)
+
 [Software Manual Table of Contents](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/tableOfContents.md)
 
 [Taylor Series Problems](https://github.com/kaiudall/MATH4610/blob/master/Homework1/Taylor_Series_Problems.pdf)
