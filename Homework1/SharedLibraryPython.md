@@ -14,7 +14,7 @@ At the top of the file type:
       
       import sys
       sys.path.append('/path/to/the/folder/above/your/package/directory/')
-      from package.directory import module
+      from package import module
       
       # You can now call functions in that module by
       module.function()
