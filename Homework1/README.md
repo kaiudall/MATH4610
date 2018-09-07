@@ -1,5 +1,5 @@
 ## Homework 1
-This folder contains the answers to taylor series, anti-derivatives, ODE's, the graphed ODE solutions, and my paragraph response.
+This folder contains the responses to the various prompts from homework 1, with a link to the software manual table of contents for responses that asked to write a software manual page
 
 [Antiderivative Problems](https://github.com/kaiudall/MATH4610/blob/master/Homework1/Antiderivative_Problems.pdf)
 
