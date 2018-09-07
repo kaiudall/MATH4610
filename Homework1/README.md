@@ -7,4 +7,6 @@ This folder contains the answers to taylor series, anti-derivatives, ODE's, the 
 
 [ODE Solutions Graph](https://github.com/kaiudall/MATH4610/blob/master/Homework1/ODE%20Solution%20Graph.png)
 
+[Software Manual](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/tableOfContents.md)
+
 [Taylor Series Problems](https://github.com/kaiudall/MATH4610/blob/master/Homework1/Taylor_Series_Problems.pdf)
