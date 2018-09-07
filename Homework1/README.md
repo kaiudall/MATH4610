@@ -3,6 +3,8 @@ This folder contains the responses to the various prompts from homework 1, with 
 
 [Antiderivative Problems](https://github.com/kaiudall/MATH4610/blob/master/Homework1/Antiderivative_Problems.pdf)
 
+[Machine Precision Application](https://github.com/kaiudall/MATH4610/blob/master/Homework1/Machine%20Precision%20Application.md)
+
 [ODE Problems](https://github.com/kaiudall/MATH4610/blob/master/Homework1/Differential_Equations.pdf)
 
 [ODE Solutions Graph](https://github.com/kaiudall/MATH4610/blob/master/Homework1/ODE%20Solution%20Graph.png)
