@@ -24,7 +24,7 @@ Output from the line above:
 
 The returned value of 0.5, is the difference of 2.5 and 2.
 
-**Implementation/Code:** The following is the code for smaceps()
+**Implementation/Code:** The following is the code for eabs()
 
       def eabs(x, y):
           return abs(x-y)
