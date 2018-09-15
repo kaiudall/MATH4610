@@ -71,7 +71,7 @@ The following is the code for graphing an errorlist:
       plt.title('Absolute Error Derivative x^2 using h=2')
       plt.show()
 
-![Absolute Error for the derivative approximation of x^2 using h=2 as a base]()
+![Absolute Error for the derivative approximation of x^2 using h=2 as a base](https://github.com/kaiudall/MATH4610/blob/master/Homework2/errorAbsf1x2h.png)
 
 
 
