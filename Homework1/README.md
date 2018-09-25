@@ -17,7 +17,7 @@ This folder contains the responses to the various prompts from homework 1, with 
 
 6. [Antiderivative Problems](https://github.com/kaiudall/MATH4610/blob/master/Homework1/Antiderivative_Problems.pdf)
 
-7. [Quadratic Root Finder](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/quadraticFormula.md)
+7. Talk about to Koebbe [Quadratic Root Finder](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/quadraticFormula.md)
 
 8. [ODE Problems](https://github.com/kaiudall/MATH4610/blob/master/Homework1/Differential_Equations.pdf)
 
