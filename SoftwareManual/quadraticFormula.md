@@ -1,6 +1,6 @@
 # Math 4610 Fundamentals of Computational Mathematics
 
-**Routine Name:**           rootFinder
+**Routine Name:**           quadraticFormula
 
 **Author:** Kai Udall
 
