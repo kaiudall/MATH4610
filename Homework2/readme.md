@@ -9,4 +9,6 @@ This readme contains links to all of the assigned problems for homework 2 in ord
 
 3. [Algebraic Improvement of Derivative Approximation of sqrt(x)](https://github.com/kaiudall/MATH4610/blob/master/Homework2/Hw2_p3_4610.pdf)
 
-4. 
+4. [Fixed Point Iteration](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/fpi.md)
+
+5. 
