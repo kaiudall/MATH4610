@@ -42,21 +42,24 @@ As per the homework we will also find a root of sin(pi*x).
 
 returns (1.000006103515625, [1.0, 1.05, 1.025, 1.0125, 1.00625, 1.003125, 1.0015625, 1.00078125, 1.000390625, 1.0001953125, 1.00009765625, 1.000048828125, 1.0000244140625, 1.00001220703125, 1.000006103515625])
 
-**Implementation/Code:** The following is the code for fpi()
+**Implementation/Code:** The following is the code for bisection()
 
-      import sin
-      
-      def fpi(function, x0, tolerance, maxiter):
-          error = 1
+      def bisection(function, x1, x2, tolerance, maxiter):
           itr = 0
+          error = 1
           converge = []
           while error > tolerance and itr < maxiter:
-              x = function(x0)
-              error = abs(x0-x)
-               x0 = x
-              converge.append(x0)
-              itr += 1
-          return (x, converge)
+              mid = (x1+x2)/2
+              if function(x1)*function(mid)>0:
+                  error = abs(x1-mid)
+                  x1 = mid
+                  converge.append(x1)
+              else:
+                  error = abs(x2-mid)
+                  x2 = mid
+                  converge.append(x2)
+              itr +=1
+          return (mid, converge)
 
 
 **Last Modified:** September/2018
