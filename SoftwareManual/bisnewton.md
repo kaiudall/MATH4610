@@ -34,20 +34,20 @@ The user can call the function in the following manner:
       def df(x):
           return 2*x
           
-      bisnewton(f, df, 0, 10, 10**-16, 2)
+      bisnewton(f, df, 0, 10, 10**-5, 2)
 
-FAKE NEWS UPDATE THIS**************Output from the line above:
+Output from the line above:
 
-      (-1.7320508075688772, [-1.7435897435897434, -1.7325826882477129, -1.732052573113379, -1.7320508078399186,   -1.7320508075688774, -1.7320508075688772, -1.7320508075688772])
+      1.7320508075688772
 
-The first value (-1.7320508075688772) is the approximation for a root of x^2 - 3. The second item is a list of the values returned as the routine converged.
-
+The returned value is the approximate root.
+***********
 As per the homework we will also find a root of sin(pi*x). 
 
       import sin from math
       import pi from math
       
-      secant(lambda x: sin(pi*x), .8, 0.9, 10**-16, 15)
+      bisnewton(lambda x: sin(pi*x), .8, 0.9, 10**-16, 15)
 
 Output from the line above
       (1.0, [1.0108508539255465, 0.9998392948089997, 1.0000000306678771, 0.9999999999999988, 1.0, 1.0])
