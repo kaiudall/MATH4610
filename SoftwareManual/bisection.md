@@ -34,12 +34,13 @@ Output from the line above:
 
 The first value (-1.73199462890625) is the approximation for a root of x^2 - 3. The second item is a list of the values returned as the routine converged.
 
-As per the homework we will also find a root of cos(pi*x). 
+As per the homework we will also find a root of sin(pi*x). 
 
-      fpi(lambda x: (x+2/pi^2)/(x+1), 0.4, 10**-5, 15)
+      import sin from math
+      import pi from math
+      bisection(lambda x: sin(pi*x), 0.9, 1.1, 10**-16, 15)
 
-returns (0.4501548887710996, [0.45009818433425897, 0.4501354174983731, 0.45014953562692434, 0.4501548887710996])
-Which is impressive because I used only a first order taylor series approximation, and the true root is at 0.5.
+returns (1.000006103515625, [1.0, 1.05, 1.025, 1.0125, 1.00625, 1.003125, 1.0015625, 1.00078125, 1.000390625, 1.0001953125, 1.00009765625, 1.000048828125, 1.0000244140625, 1.00001220703125, 1.000006103515625])
 
 **Implementation/Code:** The following is the code for fpi()
 
