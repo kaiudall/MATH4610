@@ -35,13 +35,7 @@ Output from the line above:
 
 The first value (1.7320507769002793) is the approximation for a root of x^2 - 3. The second item is a list of the values returned as the routine converged.
 
-As per the homework we will also find a root of cos(pi*x). 
-I decided to use a taylor series approximation (1 - pi^2 * x^2/2)and then rewrite the function to a form similar to what we used for x^2 - 3. Doing this we get g(x) = (x+2/pi^2)/(x+1).
-
-      fpi(lambda x: (x+2/pi^2)/(x+1), 0.4, 10**-5, 15)
-
-returns (0.4501548887710996, [0.45009818433425897, 0.4501354174983731, 0.45014953562692434, 0.4501548887710996])
-Which is impressive because I used only a first order taylor series approximation, and the true root is at 0.5.
+As per the homework we will also find a root of sin(pi*x)....
 
 **Implementation/Code:** The following is the code for fpi()
 
