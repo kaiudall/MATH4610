@@ -5,7 +5,7 @@ This folder contains the responses to the various prompts from homework 1, with 
 
 [Double Machine Epsilon](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/dmaceps.md)
 
-2. [Software Manual Table of Contents](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/tableOfContents.md)
+2. [Software Manual Table of Contents](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/readme.md)
 
 3. [DO Shared Library Cygwin]
 
