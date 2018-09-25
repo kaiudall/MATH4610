@@ -1,6 +1,6 @@
 ## Repository:  Math 4610
 
-[Software Manual](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/tableOfContents.md)
+[Software Manual](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/readme.md)
 
 [Homework 1](https://github.com/kaiudall/MATH4610/blob/master/Homework1/README.md)
 
