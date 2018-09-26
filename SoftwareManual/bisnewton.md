@@ -52,7 +52,7 @@ As per the homework we will also find a root of sin(pi*x).
 Output from the line above
       1.0
 
-**Implementation/Code:** The following is the code for newton.
+**Implementation/Code:** The following is the code for bisnewton.
       
       def bisnewton(function, derivative, x1, x2, tolerance, maxiter):
           mid = 0.5*(x1+x2)
