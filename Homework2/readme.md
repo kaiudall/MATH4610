@@ -11,4 +11,12 @@ This readme contains links to all of the assigned problems for homework 2 in ord
 
 4. [Fixed Point Iteration](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/fpi.md)
 
-5. 
+5. [Bisection Method](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/bisection.md)
+
+6. [Newton's Method](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/newton.md)
+
+7. [Secant Method](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/secant.md)
+
+8. [Bisection Newton Hybrid Method](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/bisnewton.md)
+
+9. [Bisection Secant Hybrid Method]()
