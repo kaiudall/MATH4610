@@ -19,4 +19,4 @@ This readme contains links to all of the assigned problems for homework 2 in ord
 
 8. [Bisection Newton Hybrid Method](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/bisnewton.md)
 
-9. [Bisection Secant Hybrid Method]()
+9. [Bisection Secant Hybrid Method](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/bissecant.md)
