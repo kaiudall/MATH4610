@@ -75,7 +75,7 @@ The following is the code for graphing an errorlist:
 
 ![Relative Error for the derivative approximation of x^2 using h=2 as a base](https://github.com/kaiudall/MATH4610/blob/master/Homework2/errorrelf1x2h.png)
 
-![Absolute Error for the derivative approximation of x^2 using h=3 as a base](https://github.com/kaiudall/MATH4610/blob/master/Homework2/errorabsf1x3h.png)
+![Absolute Error for the derivative approximation of x^2 using h=3 as a base](https://github.com/kaiudall/MATH4610/blob/master/Homework2/errorAbsf1x3h.png)
 
 ![Relative Error for the derivative approximation of x^2 using h=3 as a base](https://github.com/kaiudall/MATH4610/blob/master/Homework2/errorrelf1x3h.png)
 
