@@ -70,6 +70,9 @@ The following is the code for graphing an errorlist:
       plt.ylabel('Error')
       plt.title('Absolute Error Derivative x^2 using h=2')
       plt.show()
+  
+Summary for findings between relative and absolute error:
+Absolute error is more robust in that we don't have to worry about if the initial value is zero. In getting an automated function to graph both types of error, I had to consider if the initial value would end up being stored as zero (using 2 as a base made this a common issue). When I used 3 as a base, machine error was definitely introduced, so the value of h^i did not end up being stored as zero and we would not get a division by zero error. Relative error makes more sense interpretation wise because it is standardized. When I was testing root finding methods and their tolerance, I found that using absolute error was nicer initally, but implimenting relative error would have been nicer for non zero errors. Relative error can be interpreted as a percent of error, whereas absolute error is strictly just the magnitude in difference.
 
 ![Absolute Error for the derivative approximation of x^2 using h=2 as a base](https://github.com/kaiudall/MATH4610/blob/master/Homework2/errorAbsf1x2h.png)
 
