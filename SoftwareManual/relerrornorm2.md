@@ -24,7 +24,7 @@ Output from the line above:
 
 The returned value is equal to the l2 norm of the relative error between the two vectors.
 
-**Implementation/Code:** The following is the code for relerrornorm1()
+**Implementation/Code:** The following is the code for relerrornorm2()
 
       def relerrornorm2(vector1, vector2):
           length = len(vector1)
