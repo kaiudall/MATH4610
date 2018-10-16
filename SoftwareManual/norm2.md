@@ -24,7 +24,7 @@ Output from the line above:
 
 The returned value is equal to the l2 norm of the vector.
 
-**Implementation/Code:** The following is the code for eabs()
+**Implementation/Code:** The following is the code for norm2()
 
       def norm1(vector):
           add = 0
