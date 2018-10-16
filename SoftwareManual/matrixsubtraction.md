@@ -25,7 +25,7 @@ Output from the line above:
 
 The returned value is equal to matrix1-matrix2
 
-**Implementation/Code:** The following is the code for matrixaddition()
+**Implementation/Code:** The following is the code for matrixsubtraction()
 
       def matrixsubtraction(mat1, mat2):
           rows = dim(mat1)[0]
