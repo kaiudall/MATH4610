@@ -24,7 +24,7 @@ Output from the line above:
 
 The returned value is equal to the two vectors added together
 
-**Implementation/Code:** The following is the code for relerrornorminf()
+**Implementation/Code:** The following is the code for vectoraddition()
 
       def vectoraddition(vector1, vector2):
           length = len(vector1)
