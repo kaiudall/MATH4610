@@ -24,9 +24,9 @@ Output from the line above:
 
 The returned value is equal to the l-infinity norm of the vector.
 
-**Implementation/Code:** The following is the code for eabs()
+**Implementation/Code:** The following is the code for norminf()
 
-      def norm1(vector):
+      def norminf(vector):
           return max([abs(i) for i in vector])
  
 **Last Modified:** October/2018
