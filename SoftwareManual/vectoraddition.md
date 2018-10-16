@@ -14,7 +14,7 @@
 
 **Usage/Example:**
 
-The routine takes in a vector
+The routine takes in 2 vectors
 
       relerrornorm1([1,2,3], [1, 2, 3])
 
