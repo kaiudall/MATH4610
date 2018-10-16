@@ -23,3 +23,19 @@ This homework contains basic vector and linear algebra operations
 3. [Vector Addition](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectoraddition.md)
 
    [Vector Subtraction](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorsubtraction.md)
+   
+   [Vector Scale](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorscale.md)
+   
+   [Vector Inner Product](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorinnerproduct.md)
+   
+   [Vector Cross Product](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorcrossproduct.md)
+   
+4.
+
+5. [Matrix Addition](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/matrixaddition.md)
+   
+   [Matrix Subtraction](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/matrixsubtraction.md)
+   
+   [Matrix Transpose](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/transpose.md)
+   
+   [Trace](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/trace.md)
