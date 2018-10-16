@@ -17,7 +17,7 @@
 The routine takes in 2 matrices
 
       a = [[1,2,3],[4,5,6],[7,8,9]]
-      matrixaddition(a,a)
+      matrixsubtraction(a,a)
 
 Output from the line above:
 
