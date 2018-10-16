@@ -39,3 +39,5 @@ This homework contains basic vector and linear algebra operations
    [Matrix Transpose](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/transpose.md)
    
    [Trace](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/trace.md)
+   
+   [Matrix Scale](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/matrixscale.md)
