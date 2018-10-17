@@ -41,3 +41,11 @@ This homework contains basic vector and linear algebra operations
    [Trace](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/trace.md)
    
    [Matrix Scale](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/matrixscale.md)
+   
+   [Matrix times Vector](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/matrixtimesvector.md)
+   
+   [Matrix Multiply](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/matrixmultiply.md)
+   
+6. [Determinant](https://github.com/kaiudall/MATH4610/edit/master/SoftwareManual/determinant.md)
+
+
