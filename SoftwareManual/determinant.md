@@ -24,6 +24,7 @@ The returned value is equal to the determinant of matrix a.
 
 **Implementation/Code:** The following is the code for matrixmultiply()
 
+      from copy import copy
       def determinant(matrix):
           # copying the original matrix to preserve it
           Matrix = copy(matrix)
