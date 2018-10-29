@@ -56,7 +56,7 @@ Gives the output:
           else:
               positiveRoot = (-b + sqrt(innards))/(2*a)
               negativeRoot = (-b - sqrt(innards))/(2*a)
-    return [positiveRoot, negativeRoot]
+      return [positiveRoot, negativeRoot]
       
 
 **Last Modified:** September/2018
