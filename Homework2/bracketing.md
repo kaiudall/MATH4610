@@ -1,4 +1,4 @@
-**Sources for Bracketing Roots of Nonlinear, Single Real Variable Functions
+##Sources for Bracketing Roots of Nonlinear, Single Real Variable Functions
 
 In a [powerpoint](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.720.8609&rep=rep1&type=pdf) by Berlin Chen, National Taiwan Normal University, methods for bracketing such as graphing out the function, and the incremental method are discussed. With only one variable, graphing a function seems like an obvious choice. Unlike using bisection, newton's method, secant method, functional point iteration, or any combination of the former, graphing allows us to look at much wider range of values and can help us identify better brackets for roots we want to find.
 
