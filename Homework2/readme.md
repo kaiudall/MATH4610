@@ -21,4 +21,4 @@ This readme contains links to all of the assigned problems for homework 2 in ord
 
 9. [Bisection Secant Hybrid Method](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/bissecant.md)
 
-10. [Sources for Bracketing Roots of Nonlinear, Single Variable, Real Functions](https://github.com/kaiudall/MATH4610/tree/master/Homework2)
+10. [Sources for Bracketing Roots of Nonlinear, Single Variable, Real Functions](https://github.com/kaiudall/MATH4610/blob/master/Homework2/bracketing.md)
