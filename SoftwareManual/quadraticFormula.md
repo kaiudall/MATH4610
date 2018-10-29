@@ -28,7 +28,7 @@ The routine also can handle cases where the roots are complex.
 
 Gives the output:
 
-      [(-0.9999999999999999+1.7320508075688772j), (-1-1.7320508075688772j)]
+      [(-1+1.7320508075688772j), (-1-1.7320508075688772j)]
  
  Where j is python's way of representing i.
       
@@ -37,15 +37,26 @@ Gives the output:
 
 **Implementation/Code:** The following is the code for rootFinder()
 
-      import numpy as np
+      from math import sqrt
       
-      def rootFinder(a,b,c):
-      # Python takes care of cases where the square root returns a complex number, natively
-          positiveRoot = (-b+((b)**2-4*a*c)**0.5)/(2*a)
-          negativeRoot = (-b-((b)**2-4*a*c)**0.5)/(2*a)
-          return [positiveRoot, negativeRoot]
-
-
-
+      def quadraticFormula(a,b,c):
+          innards = b**2-4*a*c
+          # if the expression inside the square root is negative
+          # python's square root function will throw a runtime error
+          if innards<0:
+              # to avoid a runtime error we make the expression positive
+              innards*=-1
+              # take the square root of the positive expression, make it
+              # a string, concatenate the python equivalent to i, which is j,
+              # to our root, then coerce the string to a complex
+              root = complex(str(sqrt(innards))+'j')
+              positiveRoot = (-b + root)/2*a
+              negativeRoot = (-b - root)/2*a
+              return [positiveRoot, negativeRoot]
+          else:
+              positiveRoot = (-b + sqrt(innards))/(2*a)
+              negativeRoot = (-b - sqrt(innards))/(2*a)
+    return [positiveRoot, negativeRoot]
+      
 
 **Last Modified:** September/2018
