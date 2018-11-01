@@ -6,29 +6,29 @@ This homework contains basic vector and linear algebra operations
 
    [l2 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/norm2.md)
    
-   [linf norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/norminf.md)
+   [linf norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/norminf.md)
    
-2. [Absolute Error l1 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/abserrornorm1.md)
+2. [Absolute Error l1 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/abserrornorm1.md)
 
-   [Absolute Error l2 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/abserrornorm2.md)
+   [Absolute Error l2 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/abserrornorm2.md)
    
-   [Absolute Error l-inf norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/abserrornorminf.md)
+   [Absolute Error l-inf norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/abserrornorminf.md)
    
-   [Relative Error l1 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/relerrornorm1.md)
+   [Relative Error l1 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/relerrornorm1.md)
    
-   [Relative Error l2 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/relerrornorm2.md)
+   [Relative Error l2 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/relerrornorm2.md)
    
-   [Relative Error l-inf norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/relerrornorminf.md)
+   [Relative Error l-inf norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/relerrornorminf.md)
 
-3. [Vector Addition](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectoraddition.md)
+3. [Vector Addition](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/vectoraddition.md)
 
-   [Vector Subtraction](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorsubtraction.md)
+   [Vector Subtraction](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/vectorsubtraction.md)
    
-   [Vector Scale](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorscale.md)
+   [Vector Scale](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/vectorscale.md)
    
-   [Vector Inner Product](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorinnerproduct.md)
+   [Vector Inner Product](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/vectorinnerproduct.md)
    
-   [Vector Cross Product](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorcrossproduct.md)
+   [Vector Cross Product](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/vectorcrossproduct.md)
    
 4.
 
