@@ -25,6 +25,7 @@ maxiter: The maximum iterations the routine will go through before halting
 **Usage/Example:**
 
 The user can call the function in the following manner:
+
       secant(lambda x: x**2-3, -2, -1.9, 10**-16, 15)
 
 Output from the line above:
