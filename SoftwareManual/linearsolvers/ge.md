@@ -1,51 +1,56 @@
 # Math 4610 Fundamentals of Computational Mathematics
 
-**Routine Name:**           fs
+**Routine Name:**           ge
+
 **Author:** Kai Udall
 
 **Language:** Python 3.6.4
 
-**Description/Purpose:** This routine implements forward substitution on a square lower triangular matrix
+**Description/Purpose:** This routine implements gaussian elimination with no pivoting strategy, for all shapes of matrices
 
-**Input:** This routine takes in an lower traingular matrix and a vector
+**Input:** This routine takes in a matrix
 
-**Output:** This routine returns the solution vector
+**Output:** This routine does not return anything, but does reduce the given matrix
 
 **Usage/Example:**
 
-      A = [[1, 4, 9], [0.0, -3.0, -10.0], [0.0, 0.0, 2.0]]
-      b = [1,2,3]
-      fs(A,b)
-
-Output from the line above:
-
-      [1.0, 0.6666666666666666, 0.33333333333333304]
-
-The returned value is the solution vector x. We can verify this returns a valid solution by calling the matrixtimesvector routine from the vectorops module that was created in chapter 3.
-
-      from vectorops import matrixtimesvector
+       a = [[1,2,3,4],[1,1,1,1]]
+       geSquare(a)
+       a
+ Output from the line above:
+ 
+       [[1, 0.0, 0.0, 0.0], [1, -1.0, 0.0, 0.0]]
+ 
+ The returned value is the reduced form of the matrix a
+ 
+ **Implementation/Code:** The following is the code for ge()
+ 
+      from copy import copy, deepcopy
       
-      matrixtimesvector(A, [1.0, 0.6666666666666666, 0.33333333333333304])
-    
-Which returns the correct b:
+      def ge(A):
+          n, m = vo.dim(A)
+          rank = min(n,m)
+          highDim = max(n,m)
+          # if the matrix is tall
+          if n>m:
+              a = highDim
+              b = rank
+          # if the matrix is wide
+          elif n<m:
+              a = rank
+              b = highDim
+          # if the matrix is square
+          else:
+              a = n
+              b = n
+              # the rank doesn't change, but we can compute
+              # one less iteration
+              rank-=1
+          for k in range(rank):
+              for i in range(k+1, a):
+                  factor = A[k][i]/A[k][k]
+                  for j in range(k, b):
+                      A[j][i]-=factor*A[j][k]
       
-      [1.0, 2.0, 3.0]
-          
-
-**Implementation/Code:** The following is the code for fs()
-
-        def fs(L, b):
-          n = len(L)
-          x = []
-          # computing the first x outside the loop allows
-          # for this indexing scheme
-          x.append(b[0]/L[0][0])
-          # iterate from the second row to the last row
-          for i in range(1,n):
-              # iterate over the columns up to the ith column
-              for j in range(i):
-                  b[i]-=L[j][i]*x[j]
-              x.append(b[i]/L[i][i])
-          return x    
       
-**Last Modified:** November/2018
+**Last Modified:** October/2018
