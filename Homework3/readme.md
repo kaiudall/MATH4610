@@ -2,9 +2,9 @@
 
 This homework contains basic vector and linear algebra operations
 
-1. [l1 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/norm1.md)
+1. [l1 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/norm1.md)
 
-   [l2 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/norm2.md)
+   [l2 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/norm2.md)
    
    [linf norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/norminf.md)
    
