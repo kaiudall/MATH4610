@@ -1,6 +1,6 @@
 # Math 4610 Fundamentals of Computational Mathematics
 
-**Routine Name:**           relerrornorm1
+**Routine Name:**           vectorscale
 
 **Author:** Kai Udall
 
@@ -14,9 +14,9 @@
 
 **Usage/Example:**
 
-The routine takes in a vector
+The routine takes in a vector, and scalar
 
-      relerrornorm1([1,2,3], 2)
+      vectorscale([1,2,3], 2)
 
 Output from the line above:
 
