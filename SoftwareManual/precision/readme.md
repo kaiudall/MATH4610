@@ -10,4 +10,6 @@ This folder contains software manual pages related to machine precision
 
 4. [Relative Error](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/precision/RelativeError.md)
 
-5. [Errors in Derivative Approximation](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/precision/GraphError.md)
+5. [Derivative Approximation](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/precision/derivativeApproximation.md)
+
+6. [Errors in Derivative Approximation](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/precision/GraphError.md)
