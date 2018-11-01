@@ -1,6 +1,6 @@
 # Math 4610 Fundamentals of Computational Mathematics
 
-**Routine Name:**           Absolute Error
+**Routine Name:**           Relative Error
 
 **Author:** Kai Udall
 
