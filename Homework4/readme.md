@@ -1,5 +1,17 @@
-##Homework 4
+## Homework 4
 
 Below are the routines and assigned problems for Homework 4
 
-1. []()
+1. [Gaussian Elimination for Square Matrices](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/geSquare.md)
+
+2. [Gaussian Elimination](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/ge.md)
+
+3. [Forward Substitution](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/fs.md)
+
+4. [Backward Substitution](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/bs.md)
+
+5.  Koebbe's link is broke for solving systems [Linear Solver using GE and BS](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/linSolveGE.md)
+
+6. [LU Decompostion](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/LU.md)
+
+7. [Linear Solver using LU, FS and BS](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/linSolveLU.md)
