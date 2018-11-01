@@ -1,6 +1,7 @@
 # Math 4610 Fundamentals of Computational Mathematics
 
 **Routine Name:**           geSquare
+
 **Author:** Kai Udall
 
 **Language:** Python 3.6.4
