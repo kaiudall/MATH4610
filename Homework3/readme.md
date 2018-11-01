@@ -32,20 +32,20 @@ This homework contains basic vector and linear algebra operations
    
 4.
 
-5. [Matrix Addition](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/matrixaddition.md)
+5. [Matrix Addition](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/matrixaddition.md)
    
-   [Matrix Subtraction](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/matrixsubtraction.md)
+   [Matrix Subtraction](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/matrixsubtraction.md)
    
-   [Matrix Transpose](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/transpose.md)
+   [Matrix Transpose](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/transpose.md)
    
-   [Trace](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/trace.md)
+   [Trace](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/trace.md)
    
-   [Matrix Scale](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/matrixscale.md)
+   [Matrix Scale](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/matrixscale.md)
    
-   [Matrix times Vector](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/matrixtimesvector.md)
+   [Matrix times Vector](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/matrixtimesvector.md)
    
-   [Matrix Multiply](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/matrixmultiply.md)
+   [Matrix Multiply](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/matrixmultiply.md)
    
-6. [Determinant](https://github.com/kaiudall/MATH4610/edit/master/SoftwareManual/determinant.md)
+6. [Determinant](https://github.com/kaiudall/MATH4610/edit/master/SoftwareManual/vectorOps/determinant.md)
 
 
