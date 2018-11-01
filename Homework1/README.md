@@ -1,9 +1,9 @@
 ## Homework 1
 This folder contains the responses to the various prompts from homework 1, with a link to the software manual table of contents for responses that asked to write a software manual page
 
-1. [Single Machine Epsilon](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/smaceps.md)
+1. [Single Machine Epsilon](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/precision/smaceps.md)
 
-[Double Machine Epsilon](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/dmaceps.md)
+[Double Machine Epsilon](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/precision/dmaceps.md)
 
 2. [Software Manual Table of Contents](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/readme.md)
 
