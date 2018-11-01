@@ -6,4 +6,6 @@ Chapter 1 - [Precision](https://github.com/kaiudall/MATH4610/blob/master/Softwar
 
 Chapter 2 - [Root Finding](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/rootFinding/readme.md)
 
-Chapter 3 - [Matrix Vector Operations]()
+Chapter 3 - [Matrix Vector Operations](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/readme.md)
+
+Chapter 4 - [Linear Solvers]()
