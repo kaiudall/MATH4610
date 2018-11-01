@@ -25,8 +25,6 @@
  
  **Implementation/Code:** The following is the code for ge()
  
-      from copy import copy, deepcopy
-      
       def ge(A):
           n, m = vo.dim(A)
           rank = min(n,m)
