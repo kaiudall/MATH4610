@@ -26,7 +26,7 @@ The returned value is equal to the l2 norm of the vector.
 
 **Implementation/Code:** The following is the code for norm2()
 
-      def norm1(vector):
+      def norm2(vector):
           add = 0
           for i in vector:
               add = add + i**2
