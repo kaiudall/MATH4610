@@ -16,7 +16,7 @@
 
 The routine takes in a vector
 
-      abserrornorm1([1,2,3], [1, 2.1, 2.99])
+      abserrornorm2([1,2,3], [1, 2.1, 2.99])
 
 Output from the line above:
 
