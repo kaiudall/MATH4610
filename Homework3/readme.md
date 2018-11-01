@@ -30,7 +30,7 @@ This homework contains basic vector and linear algebra operations
    
    [Vector Cross Product](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/vectorcrossproduct.md)
    
-4.
+4. Working on it...
 
 5. [Matrix Addition](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/matrixaddition.md)
    
