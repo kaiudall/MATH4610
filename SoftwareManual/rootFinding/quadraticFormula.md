@@ -16,7 +16,7 @@
 
 The routine is called by rootFinder() with a, b, and c corresponding to the polynomial's corresponding coefficients.
 
-      rootFinder(1,4,4):
+      quadraticFormula(1,4,4):
 
 Output from the line above:
 
@@ -24,18 +24,16 @@ Output from the line above:
       
 The routine also can handle cases where the roots are complex.
 
-      rootFinder(1,2,4)
+      quadraticFormula(1,2,4)
 
 Gives the output:
 
       [(-1+1.7320508075688772j), (-1-1.7320508075688772j)]
  
- Where j is python's way of representing i.
-      
+Where j is python's way of representing i.
 
 
-
-**Implementation/Code:** The following is the code for rootFinder()
+**Implementation/Code:** The following is the code for quadraticFormula()
 
       from math import sqrt
       
