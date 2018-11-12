@@ -56,6 +56,8 @@ As per the homework we will also find a root of sin(pi*x).
 Output from the line above
       (1.0, [1.0034251515267683, 0.999999867798016, 1.0, 1.0])
 
+The first item in the tuple 1.0, is the last iteration performed. The second item is the list of values up to the convergence. 
+
 **Implementation/Code:** The following is the code for newton.
       
       def newton(function, derivative, x0, tolerance, maxiter):
