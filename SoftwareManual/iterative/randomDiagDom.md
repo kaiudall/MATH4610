@@ -40,7 +40,7 @@ Which returns:
 Which is equal to the matrix we made before
           
 
-**Implementation/Code:** The following is the code for inducednorm1
+**Implementation/Code:** The following is the code for randomDiagDom
         
         import vectorops as vo
         
