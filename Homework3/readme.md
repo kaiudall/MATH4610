@@ -32,7 +32,9 @@ This homework contains basic vector and linear algebra operations
    
 4. [Frobenius norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/frobenius.md)
 
-   []()
+   [l1 Norm of a Matrix](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/matrixnorm1.md)
+   
+   [l-inf Norm of a Matrix](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/matrixnorminf.md)
 
 5. [Matrix Addition](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/matrixaddition.md)
    
