@@ -59,14 +59,18 @@ Output from the line above
           error = 1
           itr = 0
           while error >= tolerance and itr < maxiter:
+              # Use the newton routine with 15 iterations and 10*tolerance
               x, converge = newton(function, derivative, mid, 10*tolerance, 15)
               # When the algorithm converges quickly the indexing will throw an error
               # These branching statements insure the convergence error is long enough
               # to check for the error
               if len(converge) > 2:
+                  # compute the absolute error between the last iteration and the second to last iteration
                   error = abs(converge[-1]-converge[-2])
               else:
-                  error = 1
+                  # if the list is too short, newton converged quickly
+                  error = tolerance*0.5
+              # if error < tolerance, use bisection to compute a new starting point for newton
               mid = bisection(function, x1, x2, 10**-1, 4)
               itr += 1
           return x
