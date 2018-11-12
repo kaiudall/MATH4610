@@ -7,3 +7,7 @@
 2. [Random Square Diagonally Dominant Matrix](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/iterative/randomDiagDom.md)
 
    [Random Right Hand Side](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/iterative/randomRHS.md)
+
+3. [Jacobi Iteration](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/iterative/Jacobi.md)
+
+4. [Gauss Seidel]()
