@@ -28,7 +28,10 @@ The returned value is equal to the l-infinity norm of the absolute error between
 
       def abserrornorminf(vector1, vector2):
           length = len(vector1)
-          return max([abs(vector1[i]-vector2[i]) for i in range(length)])
+          # compute the absolute error for each entry
+          errors = [abs(vector1[i]-vector2[i]) for i in range(length)]
+          # compute the maximum error
+          return max(errors)
 
 
 
