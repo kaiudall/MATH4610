@@ -26,11 +26,14 @@ The returned value is equal to the l1 norm of the relative error between the two
 
 **Implementation/Code:** The following is the code for relerrornorm1()
 
+      # From the error chapter of this manual, we import the relative error routine
+      from error import erel
+      
       def relerrornorm1(vector1, vector2):
           length = len(vector1)
           add = 0
           for i in range(length):
-              add = add + error.erel(vector1[i], vector2[i])
+              add = add + erel(vector1[i], vector2[i])
           return add
 
 
