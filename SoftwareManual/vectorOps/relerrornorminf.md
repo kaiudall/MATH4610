@@ -26,9 +26,15 @@ The returned value is equal to the l-inf norm of the relative error between the 
 
 **Implementation/Code:** The following is the code for relerrornorminf()
 
+      # From the error chapter of this manual, we import the relative error routine
+      from error import erel
+      
       def relerrornorminf(vector1, vector2):
           length = len(vector1)
-          return max([error.erel(vector1[i], vector2[i]) for i in range(length)])
+          # compute the relative error of each entry
+          errors = [erel(vector1[i], vector2[i] for i in range(length)]
+          # return the maximum relative error
+          return max(errors)
 
 
 **Last Modified:** October/2018
