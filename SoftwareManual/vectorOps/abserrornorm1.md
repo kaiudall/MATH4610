@@ -26,15 +26,11 @@ The returned value is equal to the l1 norm of the absolute error between the two
 
 **Implementation/Code:** The following is the code for abserrornorm1()
 
-      # the error module contains routines for absolute and relative error that are shown in this manual
-      import error
-      
       def abserrornorm1(vector1, vector2):
           length = len(vector1)
           add = 0
           for i in range(length):
-              # error.eabs() is the routine for computing absolute error
-              add = add + error.eabs(vector1[i], vector2[i])
+              add = add + abs(vector1[i]-vector2[i])
           return add
 
 
