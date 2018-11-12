@@ -30,6 +30,7 @@ The returned value is equal to the inner product of the two vectors
           length = len(vector1)
           add = 0
           for i in range(length):
+              # add the multiplication of the ith entry of both vectors to the total
               add = add + vector1[i]*vector2[i]
           return add
 
