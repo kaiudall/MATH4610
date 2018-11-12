@@ -23,7 +23,7 @@ Output from the line above:
 
 The returned value is equal to the l1 norm of the matrix
 
-**Implementation/Code:** The following is the code for frobenius()
+**Implementation/Code:** The following is the code for matrixnorm1()
 
       def matrixnorm1(A):
           # this routine rerturns the maximum absolute solumn sum
