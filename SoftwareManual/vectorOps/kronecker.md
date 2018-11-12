@@ -40,6 +40,11 @@ The first line being the kronecker product printed in columns, the secon output 
 
 **Implementation/Code:** The following is the code for matrixmultiply()
 
+      def dim(A):
+          cols = len(A)
+          rows = len(cols)
+          return (rows, cols)
+      
       def kronecker(A,B):
           m, n = dim(A)
           p, q = dim(B)
