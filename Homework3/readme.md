@@ -50,6 +50,8 @@ This homework contains basic vector and linear algebra operations
    
    [Matrix Multiply](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/matrixmultiply.md)
    
-6. [Determinant](https://github.com/kaiudall/MATH4610/edit/master/SoftwareManual/vectorOps/determinant.md)
+6. [Kronecker Product]()
+   
+   [Determinant](https://github.com/kaiudall/MATH4610/edit/master/SoftwareManual/vectorOps/determinant.md)
 
 
