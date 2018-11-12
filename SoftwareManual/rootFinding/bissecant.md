@@ -53,18 +53,17 @@ Output from the line above
           error = 1
           itr = 0
           while error > tolerance and itr < maxiter:
+              # use the secant routine
               x, converge = secant(function, x1, x2, tolerance, 15)
               x1 = min(converge[-1], converge[-2])
               x2 = max(converge[-1], converge[-2])
               error = abs(x1-x2)
+              # if error > tolerance, we continue to bisection to find a closer start
               x, converge = bisection(function, x1, x2, 10**-1, 4)
+              x1 = min(converge[-1], converge[-2])
+              x2 = max(converge[-1], converge[-2])
               itr += 1
           return x
-
-
-
-
-      
 
 
 **Last Modified:** September/2018
