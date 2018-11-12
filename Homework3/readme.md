@@ -6,7 +6,7 @@ This homework contains basic vector and linear algebra operations
 
    [l2 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/norm2.md)
    
-   []
+   [l-inf norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/norminf.md)
    
 2. [Absolute Error l1 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/abserrornorm1.md)
 
