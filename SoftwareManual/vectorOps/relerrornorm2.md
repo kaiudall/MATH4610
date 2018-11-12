@@ -16,7 +16,7 @@
 
 The routine takes in a vector
 
-      relerrornorm1([1,2,3], [1, 2.1, 2.99])
+      relerrornorm2([1,2,3], [1, 2.1, 2.99])
 
 Output from the line above:
 
