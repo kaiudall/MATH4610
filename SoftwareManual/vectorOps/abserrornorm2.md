@@ -30,7 +30,7 @@ The returned value is equal to the l1 norm of the absolute error between the two
           length = len(vector1)
           add = 0
           for i in range(length):
-              err = error.eabs(vector1[i], vector2[i])
+              err = abs(vector1[i]-vector2[i])
               add = add + err*err
           return add**0.5
 
