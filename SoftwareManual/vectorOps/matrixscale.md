@@ -28,8 +28,7 @@ The returned value is equal to the transpose of the original matrix
 **Implementation/Code:** The following is the code for matrixscale()
 
       def matrixscale(matrix, scalar):
-          rows = dim(matrix)[0]
-          cols = dim(matrix)[1]
+          rows, cols = dim(matrix)
           for col in range(cols):
               for row in range(rows):
                   matrix[col][row]*=scalar
