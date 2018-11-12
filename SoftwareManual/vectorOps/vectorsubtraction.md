@@ -28,6 +28,7 @@ The returned value is equal to the two vectors subtracted
 
       def vectorsubtraction(vector1, vector2):
           length = len(vector1)
+          # return a vector containing the subtraction of each element
           return [vector1[i]-vector2[i] for i in range(length)]
 
 
