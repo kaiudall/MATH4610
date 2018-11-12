@@ -16,7 +16,7 @@
 
 The routine takes in a vector
 
-      relerrornorm1([1,2,3], [1, 2, 3])
+      vectorinnerproduct[1,2,3], [1, 2, 3])
 
 Output from the line above:
 
