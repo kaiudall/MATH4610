@@ -16,7 +16,7 @@
 
 The routine takes in 2 vectors
 
-      relerrornorm1([1,2,3], [1, 2, 3])
+      vectoraddition([1,2,3], [1, 2, 3])
 
 Output from the line above:
 
@@ -28,6 +28,7 @@ The returned value is equal to the two vectors added together
 
       def vectoraddition(vector1, vector2):
           length = len(vector1)
+          # return a vector that adds each element of the vectors
           return [vector1[i]+vector2[i] for i in range(length)]
 
 
