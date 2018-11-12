@@ -27,6 +27,8 @@ The returned vector is the result of finding the cross product
 **Implementation/Code:** The following is the code for vectorcrossproduct
 
       def vectorcrossproduct(u, v):
+          # returns a vector perpendicular to u and v
+          # using the expanded definition of the cross product
           return [u[1]*v[2]-u[2]*v[1], u[2]*v[0]-u[0]*v[2], u[0]*v[1]-u[1]*v[0]]
 
 **Last Modified:** October/2018
