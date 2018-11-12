@@ -46,6 +46,7 @@ The returned value is equal to the product of matrix a and vector b
               temprow = []
               for j in range(cols):
                   temprow.append(matrix[j][i])
+              # append the dot product of row i and the vector to b
               b.append(vectorinnerproduct(temprow, vector))
           return b
 
