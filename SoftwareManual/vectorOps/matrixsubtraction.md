@@ -27,12 +27,17 @@ The returned value is equal to matrix1-matrix2
 
 **Implementation/Code:** The following is the code for matrixsubtraction()
 
+      def vectorsubtraction(vector1, vector2):
+          length = len(vector1)
+          return [vector1[i]-vector2[i] for i in range(length)]
+    
       def matrixsubtraction(mat1, mat2):
-          rows = dim(mat1)[0]
-          cols = dim(mat2)[1]
+          rows, cols = dim(mat1)
           matrix = []
-          for i in range(cols):
-              matrix.append(vectorsubtraction(mat1[i], mat2[i]))
+          for j in range(cols):
+              # append the jth col of mat1 from the jth col of mat2
+              # using the vector subtraction routine
+              matrix.append(vectorsubtraction(mat1[j], mat2[j]))
           return matrix
 
 
