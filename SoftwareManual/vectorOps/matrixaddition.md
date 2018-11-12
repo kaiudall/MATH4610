@@ -27,11 +27,16 @@ The returned value is equal to the two matrices added together
 
 **Implementation/Code:** The following is the code for matrixaddition()
 
+      def vectoraddition(vector1, vector2):
+          length = len(vector1)
+          return [vector1[i]+vector2[i] for i in range(length)]
+      
       def matrixaddition(mat1, mat2):
           rows, cols = dim(mat1)
           matrix = []
           for j in range(cols):
               # add col j of mat1 to col j of mat 2, append that vector to matrix
+              # using the vectoraddition routine
               matrix.append(vectoraddition(mat1[j], mat2[j]))
           return matrix
 
