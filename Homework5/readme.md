@@ -10,4 +10,6 @@
 
 3. [Jacobi Iteration](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/iterative/Jacobi.md)
 
-4. [Gauss Seidel]()
+4. [Gauss Seidel](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/iterative/Gauss_Seidel.md)
+
+5. [Steepest Descent](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/iterative/steepDesc.md)
