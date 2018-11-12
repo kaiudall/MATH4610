@@ -27,6 +27,7 @@ The returned value is equal to the vector scaled by 2
 **Implementation/Code:** The following is the code for vectorscale():
 
       def vectorscale(vector, scalar):
+          # return a vector that has every element multiplied by scalar
           return [scalar*i for i in vector]
 
 **Last Modified:** October/2018
