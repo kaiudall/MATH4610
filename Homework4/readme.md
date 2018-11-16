@@ -10,7 +10,7 @@ Below are the routines and assigned problems for Homework 4
 
 4. [Backward Substitution](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/bs.md)
 
-5.  Koebbe's link is broke for solving systems [Linear Solver using GE and BS](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/linSolveGE.md)
+5. [Linear Solver using GE and BS](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/linSolveGE.md)
 
 6. [LU Decompostion](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/LU.md)
 
