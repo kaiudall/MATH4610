@@ -7,3 +7,7 @@
 [Homework 2](https://github.com/kaiudall/MATH4610/blob/master/Homework2/readme.md)
 
 [Homework 3](https://github.com/kaiudall/MATH4610/blob/master/Homework3/readme.md)
+
+[Homework 4](https://github.com/kaiudall/MATH4610/blob/master/Homework4/readme.md)
+
+[Homework 5](https://github.com/kaiudall/MATH4610/blob/master/Homework5/readme.md)
