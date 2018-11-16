@@ -3,7 +3,6 @@
 This folder contains software manual pages to do with matrix and vector operations
 
 1.  [l1 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/norm1.md)
-
 2.  [l2 norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/norm2.md)
 
 3.  [linf norm](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/norminf.md)
