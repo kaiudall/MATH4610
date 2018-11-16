@@ -8,4 +8,4 @@ Chapter 2 - [Root Finding](https://github.com/kaiudall/MATH4610/blob/master/Soft
 
 Chapter 3 - [Matrix Vector Operations](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/readme.md)
 
-Chapter 4 - [Linear Solvers]()
+Chapter 4 - [Linear Solvers](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/readme.md)
