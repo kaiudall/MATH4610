@@ -50,8 +50,22 @@ This homework contains basic vector and linear algebra operations
    
    [Matrix Multiply](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/matrixmultiply.md)
    
-6. [Kronecker Product]()
+6. Code works haven't written a page [Kronecker Product]()
    
    [Determinant](https://github.com/kaiudall/MATH4610/edit/master/SoftwareManual/vectorOps/determinant.md)
+   
+   Looking for a definition.... [Outer Product?]()
+   
+7. [mat vec par]()
+
+   [mat mat par]()
+   
+8. [Vector Inner Product](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/vectorinnerproduct.md)
+
+   [Cross Product](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/vectorcrossproduct.md)
+   
+9. orth basis stuff
+
+10. Kronecker product applications...
 
 
