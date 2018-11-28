@@ -68,4 +68,6 @@ This homework contains basic vector and linear algebra operations
 
 10. Kronecker product applications...
 
+update...
+
 
