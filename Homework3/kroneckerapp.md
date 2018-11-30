@@ -16,10 +16,10 @@ The Kronecker product has [15 properties](https://www.math.uwaterloo.ca/~hwolkow
 
 A practical application for the kronecker product is that it can be used to solve systems of equations where a matrix is the unknown. Systems follow this general pattern ([page 11](https://www.math.uwaterloo.ca/~hwolkowi/henry/reports/kronthesisschaecke04.pdf)):
 
-AX=B \newline
-AX+BX=C (Sylvester equation) \newline
-AXB=C \newline
-AX+YB=C \newline
+AX=B  
+AX+BX=C (Sylvester equation)  
+AXB=C  
+AX+YB=C  
 
 The Sylvester equation "plays a central role in control theory, Poisson equation solving, or invariant subspace computation..." ([page 12](https://www.math.uwaterloo.ca/~hwolkowi/henry/reports/kronthesisschaecke04.pdf))
 
