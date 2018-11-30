@@ -56,9 +56,9 @@ This homework contains basic vector and linear algebra operations
    
    The outer product is the same as the Kronecker product. Check the kronecker product page.
    
-7. [mat vec par]()
+7. HI DO THIS ONE[mat vec par]()
 
-   [mat mat par]()
+   AND THIS ONE [mat mat par]()
    
 8. [Vector Inner Product](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/vectorinnerproduct.md)
 
@@ -66,8 +66,6 @@ This homework contains basic vector and linear algebra operations
    
 9. [Creating an Orthogonal Basis](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/orthBasis.md)
 
-10. Kronecker product applications...
-
-update...
+10. [Kronecker Applications](https://github.com/kaiudall/MATH4610/blob/master/Homework3/kroneckerapp.md)
 
 
