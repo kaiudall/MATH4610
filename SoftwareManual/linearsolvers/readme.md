@@ -15,3 +15,7 @@ This chapter contains implementations of direct linear solvers (for methods util
 6. [LU Decompostion](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/LU.md)
 
 7. [Linear Solver using LU, FS and BS](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/linSolveLU.md)
+
+8. [Cholesky Factorization](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/cholesky.md)
+
+9. [Linear Solver using Cholesky, FS and BS](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/linearsolvers/linSolveCholesky.md)
