@@ -58,7 +58,7 @@ This homework contains basic vector and linear algebra operations
    
 7. [Matrix times Vector in parallel](https://github.com/kaiudall/MATH4610/blob/master/Homework3/matvecp.md)
 
-   AND THIS ONE [mat mat par](https://github.com/kaiudall/MATH4610/blob/master/Homework3/matrixmultiply.md)
+   [Matrix times Matrix in parallel](https://github.com/kaiudall/MATH4610/blob/master/Homework3/matrixmultiply.md)
    
 8. [Vector Inner Product](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/vectorOps/vectorinnerproduct.md)
 
