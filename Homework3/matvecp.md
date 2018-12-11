@@ -55,4 +55,4 @@ Start a terminal session in the same directory as the file
 
 The resulting files will be created (except for try.py that is the file I used to call matrix times vector in python)
 
-[demonstrated](https://github.com/kaiudall/MATH4610/blob/master/Homework3/Screen%20Shot%202018-12-10%20at%205.28.37%20PM.png)
+![demonstrated](https://github.com/kaiudall/MATH4610/blob/master/Homework3/Screen%20Shot%202018-12-10%20at%205.28.37%20PM.png)
