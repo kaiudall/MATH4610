@@ -56,3 +56,29 @@ Start a terminal session in the same directory as the file
 The resulting files will be created (except for try.py that is the file I used to call matrix times vector in python)
 
 ![demonstrated](https://github.com/kaiudall/MATH4610/blob/master/Homework3/Screen%20Shot%202018-12-10%20at%205.28.37%20PM.png)
+
+In try.py I call the function from cython
+
+      import numpy as np
+      import parallelvectorops as pvo
+      
+      # numpy plays nice with openmp
+      A = np.column_stack([[i*1.0 for i in range(3)] for i in range(4)])
+      A
+      b = np.array([1.0, 2.0, 3.0, 4.0])
+      b
+      
+      pvo.matrixTimesVector(A,b)
+      
+The following is the results:
+
+      # A
+      array([[0., 0., 0., 0.],
+             [1., 1., 1., 1.],
+             [2., 2., 2., 2.]])
+      
+      # b
+      array([1., 2., 3., 4.])
+      
+      # A times b
+      array([ 0., 10., 20.])
