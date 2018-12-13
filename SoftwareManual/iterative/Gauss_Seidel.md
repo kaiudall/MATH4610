@@ -48,11 +48,14 @@ This is the exact solution for our system. (We know this because the randomRHS r
                 for i in range(n):
                     s1 = 0
                     s2 = 0
+                    # dot product of A and xnew up to element i
                     for j in range(i):
                         s1+=A[i][j]*xnew[j]
+                    # dot product of A and x of i+i to n
                     for j in range(i+1,n):
                         s2+=A[i][j]*x[j]
                     xnew[i] = (b[i]- s1 - s2)/A[i][i]
+                # 1-norm of x-xnew
                 error = vo.abserrornorm1(x, xnew)
                 itr+=1
                 x = xnew
