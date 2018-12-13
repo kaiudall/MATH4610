@@ -11,3 +11,5 @@
 [Homework 4](https://github.com/kaiudall/MATH4610/blob/master/Homework4/readme.md)
 
 [Homework 5](https://github.com/kaiudall/MATH4610/blob/master/Homework5/readme.md)
+
+[Homework 6](https://github.com/kaiudall/MATH4610/blob/master/Homework6/readme.md)
