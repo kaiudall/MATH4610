@@ -55,10 +55,7 @@ The returned value is equal to the inner product of the two matrices, a 2 by 2 m
               for col in matrix2:
                   temprow.append(vectorinnerproduct(row, col))
               newMatrix.append(temprow)
-          # we appended the rows to the new matrix, 
-          # to get the matrix in standard form [[col1], [col2],...,[coln]],
-          # we need to take the transpose again
-          return transpose(newMatrix)
+          return newMatrix
 
 
 **Last Modified:** October/2018
