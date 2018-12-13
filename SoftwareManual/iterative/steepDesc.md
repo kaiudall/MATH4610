@@ -44,9 +44,13 @@ This is close to the exact solution for our system. (We know this because the ra
             itr = 0
             while error > tol and itr < maxiter:
                 Ax = vo.matrixtimesvector(A, x)
+                # r = b - Ax
                 r = vo.vectorsubtraction(b, Ax)
+                # a = r^T*r / (r^T*A*r)
                 a = vo.vectorinnerproduct(r,r)/(vo.vectorinnerproduct(r, vo.matrixtimesvector(A,r)))
+                # xnew = x + a*r
                 xnew = vo.vectoraddition(x,vo.vectorscale(r, a))
+                # 1 norm of r
                 error = vo.norm1(r)
                 itr+=1
                 x = xnew
