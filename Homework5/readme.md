@@ -14,5 +14,5 @@
 
 5. [Steepest Descent](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/iterative/steepDesc.md)
 
-6. [Conjugate Gradient](https://github.com/kaiudall/MATH4610/tree/master/SoftwareManual/iterative)
+6. [Conjugate Gradient](https://github.com/kaiudall/MATH4610/blob/master/SoftwareManual/iterative/conjGrad.md)
 
