@@ -39,7 +39,7 @@ Output from the line above:
 
 This is the smalest eigenvalue
           
-**Implementation/Code:** The following is the code for powerMethod():
+**Implementation/Code:** The following is the code for inverseIteration():
         
         import vectorops as vo
         import linearSolvers as ls
