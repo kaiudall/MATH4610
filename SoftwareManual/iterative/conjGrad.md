@@ -51,19 +51,27 @@ This is a poor solution to our system. I'm going to look into how I implemented 
         import vectorops as vo
         
         def conjGrad(A, b, x, maxiter=50, tol=10**-17):
-            #oof work on this
             Ax = vo.matrixtimesvector(A, x)
+            # r = b - Ax
             r = vo.vectorsubtraction(b, Ax)
+            # delta = r^T*r
             delta = vo.vectorinnerproduct(r,r)
+            # bdelta = b^T*b
             bdelta = vo.vectorinnerproduct(b,b)
             itr = 0
             p = r
             while delta > tol*tol*bdelta and itr < maxiter:
+                # s = Ap
                 s = vo.matrixtimesvector(A, p)
+                # a = delta/(p^T * s)
                 a = delta/vo.vectorinnerproduct(p, s)
+                # xnew = x + a*p
                 xnew = vo.vectoraddition(x, vo.vectorscale(p, a))
+                # rnew = r + a*p
                 rnew = vo.vectorsubtraction(r, vo.vectorscale(s, a))
+                # deltanew = rnew^T * r
                 deltanew = vo.vectorinnerproduct(rnew, r)
+                # pnew = rnew + (deltanew/delta)*p
                 pnew = vo.vectoraddition(rnew, vo.vectorscale(p, (deltanew/delta)))
                 x = xnew
                 r = rnew
