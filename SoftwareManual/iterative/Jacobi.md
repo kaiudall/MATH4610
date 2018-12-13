@@ -44,15 +44,19 @@ The correct solution is [1,1,1,1,1], as determined by our randomRHS routine
             itr = 0
             error = tol*10
             while itr < maxiter and error > tol:
+                # zero vector size n
                 xnew = [0 for k in range(n)]
                 for i in range(n):
                     s1 = 0
                     s2 = 0
+                    # dot product of elements up to i
                     for j in range(i):
                         s1+=A[i][j]*x[j]
+                    # dot product of elements i+1 to n
                     for j in range(i+1,n):
                         s2+=A[i][j]*x[j]
                     xnew[i] = (b[i] - s1 - s2)/A[i][i]
+                # 1-norm of x-xnew
                 error = vo.abserrornorm1(x, xnew)
                 itr+=1
                 x = xnew
